@@ -1,0 +1,1185 @@
+
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*======================================================================================================*/
+body{
+	background-color:#273E7A;
+	background-image:url('img/background.jpg'), url('img/background2.jpg');
+	background-size:100%;
+	background-attachment:fixed;
+	background-repeat:no-repeat, repeat;
+	font-family: Verdana, Geneva, sans-serif;
+	width:85%;
+	margin:0 auto;
+}
+header{
+	
+	height:10%;
+	margin:0 auto;
+}
+
+.menu{
+	width:100%;
+	padding: 0;
+	margin:0;
+}
+
+#logo{
+	text-align:center;
+}
+	
+
+.wrapper{
+	border-radius:2px;
+	margin:0 auto;
+	clear:both;
+}
+
+	}
+/*============================================================================================*/		
+		
+/*================================Navigation Section==========================================*/		
+nav{
+	width:700px;
+	margin:70px 0 0 50px;
+	position:relative;
+	left:500px;
+	top:-220px;	
+}
+	nav ul{
+		list-style:none;
+		font-size:11pt;
+		font-family:Georgia, serif;
+		float:left;
+}
+	.menu li{
+		width:150px;
+		height:40px;
+		text-align:center;
+		position:relative;
+		top:9px;
+		float:left;
+		z-index:1;
+		margin-bottom:30px;
+
+	}
+	.menu li:hover > a{
+		background:-webkit-linear-gradient(#27332C, #ECF5EF);
+		background:-moz-linear-gradient(#27332C #ECF5EF);
+		background:-o-linear-gradient(#27332C #ECF5EF);
+		background:-ms-linear-gradient(#27332C #ECF5EF);
+		text-align:center;
+		margin:auto;
+		color:#590345;
+		border-radius:4px;
+	}
+	.menu li:hover a:hover{
+		background:-webkit-linear-gradient(#27332C, #ECF5EF);
+		background:-moz-linear-gradient(#27332C, #ECF5EF);
+		background:-o-linear-gradient(#27332C, #ECF5EF);
+		background:-ms-linear-gradient(#27332C, #ECF5EF);
+	}
+	.menu a{
+		text-decoration:none;
+		display:block;
+		width:150px;
+		height:40px;
+		line-height:40px;
+		background:-webkit-linear-gradient(blue, #000);
+		background:-moz-linear-gradient(blue, #000);
+		background:-o-linear-gradient(blue, #000);
+		background:-ms-linear-gradient(blue, #000);
+		color:#ccc;
+		font-size:12pt;
+		font-weight:bold;
+		background-image:url('img/bar.png');
+		background-repeat:y-repeat;
+	}
+
+			
+	/*Sub Menu Navigation*/
+	.menu .submenu{
+		display:none;
+		position:absolute;
+		top:31px;
+		right:-1px;
+	}
+	.menu .submenu a{
+		width:150px;
+		font-size:.9em;
+	}
+	.menu .submenu li{
+		margin:0;
+			
+	}
+	.menu li:hover .submenu{
+		display:block;
+	}
+
+/*=========================================================================================*/
+/*=========================Panel Event Section=============================================*/
+		#wallpaper{
+			float:left;
+			width:75.5%;
+			height:auto;
+		}
+
+		#slider > img{
+			//float:left;
+			display:none;
+		}
+	
+/*============================================================================================*/
+
+/*=========================Side Bar Section======================================================*/		
+		aside{
+			font-family:gerogia;
+			float:right;
+			width:22%;
+			height:64%;
+			background-color:#ccccff;
+			opacity:0.8;
+		}
+		#checklist{
+			width:80%;
+			margin:0 auto;
+			line-height:1.4em;
+			text-align:left;
+			
+		}
+		aside h3{
+			color:#580202;
+			font-size:1em;
+		}
+		#sidebar{
+			position:relative;
+			left:-20px;
+		}
+		#sidebar li{
+			border-bottom:2px solid #580202;
+			text-align:left;
+		}
+		#sidebar li:hover{
+			background-color:#ccc;
+			display:block;
+		}
+		#emphasis{
+			background:#580202;
+			opacity:.5;
+			color:white;
+			padding:5px;
+			margin-bottom:4px;
+			text-align:center;
+		}
+
+		
+/*====================================================================================*/
+
+
+/*==============================Content Section======================================*/
+	.info{
+		padding:0 5% 0 5%;
+		margin:2%;
+		border:3px solid #000;
+		border-radius:10px;
+		width:65%;
+		background:#ccc;
+		color:#000;
+		line-height:200%;
+		font-family: Verdana, Geneva, sans-serif;
+		font-size:1.2em;
+	}
+	.info h1{
+		font-size:1.5em;
+		color:#580202;
+		font-weight:bold;
+		margin:5%;
+	}
+	.info h2{
+		font-size:1.4em;
+		text-decoration:underline;
+		color:#580202;
+	}
+	.info h3{
+		font-size:1.2em;
+		color:#000;
+		margin-top:5%;
+	}
+	.info h4{
+		font-size:.9em;
+		font-weight:bold;
+	}
+	.info p{
+		font-size:.8em;
+	}
+	.info p a{
+		color:red;
+		font-size:.9em;
+	}
+		.info p a:hover{
+			color:#000;
+			text-decoration:underline;
+		}
+	.info .quote1{
+		width:92.5%;
+		margin:0 auto;
+		background-color:#848484;
+		border:1px solid #FFFF00;
+		border-radius:4px;
+		color:#FFFF00;
+	}
+	.info .quote1 p{
+		padding:3%;
+		font-size:.8em;
+		line-height:1.6;
+	}
+		.booking{
+			width:100px;
+			background:-webkit-linear-gradient(#FF0000, #EEEEEE);
+			background:-moz-linear-gradient(#27332C, #ECF5EF);
+			background:-o-linear-gradient(#27332C, #ECF5EF);
+			background:-ms-linear-gradient(#27332C, #ECF5EF);
+			border: 4px outset #9B9B8C;
+			border-radius:40%;
+	}	
+	.list{
+		margin:10% 0 10% 15%;
+		font-size:12pt;
+	}
+	.list li{
+		margin:2%;
+		list-style-image:url('img/tent.png');
+	}
+	.list a{
+		text-decoration:none;
+		color:#000;
+	}
+	.list a:hover{
+		color:#400000;
+		text-decoration:underline;
+		background:#ccccff;
+		padding:2px;
+	}
+	figure{
+		Background-color:white;
+		width:100px;
+		height:100px;
+		border-radius:50%;
+		-moz-border-radius:50%;
+		-webkit-border-radius:50%;
+	}
+		.transport{
+			position:relative;
+			top:20px;
+			right:-8px;
+		}
+	.picnic{
+		width:85%;
+		margin:0 auto;
+		padding-left:2%;
+		border-radius:5;
+		-moz-border-radius:5%;
+		-webkit-border-radius:5%;
+	}
+	.return{
+		background-image:url('img/return.png');
+		background-repeat:no-repeat;
+		position:relative;
+		left:90%;
+		//text-indent:-1000em;
+	}
+	#returnup{
+		opacity:0.0;
+	}
+	.return:hover{
+		background-image:url('img/returnhover.png');
+		background-repeat:no-repeat;
+		position:relative;
+		left:90%;
+	}
+	input{
+		position:relative;
+	}
+		input#one{left: 55px;}
+		input#two{left: 20px;}
+		input#three{left:81px;}
+		input#four{left: 53px;}
+		input#five{left: 82px;}
+		
+		
+	#yourstay li{
+		font-size:.9em;
+		list-style:initial;
+	}
+/*===========Video Gallery section====================================*/
+	.info iframe { 
+		width: 100%; 
+		margin: 0 0 20px 0; 
+	}
+
+	
+/*================================================ABOUT US=======================================================*/
+	.info2{
+		margin:0% auto;
+		border:3px solid #000;
+		border-radius:1%;
+		width:95%;
+		background:#ccc;
+		color:#000;
+		line-height:200%;
+		font-family: Verdana, Geneva, sans-serif;
+		font-size:1.2em;
+		overflow:hidden;
+	}
+	.info2 h2{
+		font-size:1.2em;
+		text-decoration:underline;
+		color:#580202;
+	}	
+	.info2 h3{
+		font-size:.9em;
+		color:#ccc;
+		font-weight:bold;
+		margin:5%;
+	}
+
+	.info2 p{
+		font-size:.7em;
+	}
+	
+	.designers {
+		width:20%;
+		margin:0 auto;
+		padding:2%;
+		border-radius:50%;
+		box-shadow:10px 10px 5px #888888;
+	}	
+	#alan{
+		box-shadow: 10px 10px 5px #888888;
+		padding:2%;
+		margin:5%;
+		background-color:#000;
+		color:#ccc;
+		width:85%;
+	}
+	#keini{
+		box-shadow: 10px 10px 5px #888888;
+		padding:2%;
+		margin:5%;
+		background-color:#000;
+		color:#ccc;
+		width:85%;	
+	}
+	#wagner{
+		box-shadow: 10px 10px 5px #888888;
+		padding:2%;
+		margin:5%;
+		background-color:#000;
+		color:#ccc;
+		width:85%;	
+	}
+
+/*=================================================Events Section================================================*/			
+		#events{
+			float:left;
+			width:76%;
+			height:37%;
+			margin:4.2% 0 2.1% 0;	
+			background:-webkit-linear-gradient(#ccccff, #000);
+			background:-o-linear-gradient(#ccccff, #000);
+			background:-moz-linear-gradient(#ccccff, #000);
+			background:-ms-linear-gradient(#ccccff, #000);
+			opacity:0.9;			
+		}
+		#group{
+			width:100%;
+			position:relative;
+			left:2.1%;
+		}
+		#group li a{
+			width:22%;
+			height:32%;
+		}
+		#group a{
+			position:absolute;
+			width:10%;
+			height:12%;
+			text-indent:-1000em;
+		}
+		
+			.portished a{
+				top:10%;
+				left:6%;
+			}
+			.outkast a{
+				top:10%;
+				left:36%;
+			}			
+			.beck a{
+				top:10%;
+				left:68%;
+			}
+			.foals a{
+				top:57%;
+				left:6%;
+			}
+			.boys a{
+				top:57%;
+				left:36%;
+			}
+			.paolo a{
+				top:57%;
+				left:68%;
+			}			
+		#showMoreEvents{
+			background:-webkit-linear-gradient(blue, #000);
+			border-radius:10px;
+			opacity:0.8;
+			width:55.66%;
+			position:relative;
+			left:20.23%;
+			height:39px;
+			clear:both;
+			margin-bottom:30px;
+			color:white;
+			text-align:right;
+			line-height:39px;
+		}
+			#submit{
+				position:relative;
+				left:-2.5%;
+				width:16%;
+				background:-webkit-linear-gradient(blue, #000);
+				background:-moz-linear-gradient(blue, #000);
+				background:-o-linear-gradient(blue, #000);
+				background:-ms-linear-gradient(blue, #000);
+				color:white;
+			}
+			#submit1{
+				background:-webkit-linear-gradient(blue, #000);
+				position:relative;
+				left:67%;
+				width:9%;
+				color:white;
+				opacity:.8;
+			}
+			
+/*============================================================================================*/	
+
+/*=====================================Other Events============================================*/
+	.others{
+		background:-webkit-linear-gradient(#ccccff, #000);
+		background:-o-linear-gradient(#ccccff, #000);
+		background:-moz-linear-gradient(#ccccff, #000);
+		background:-ms-linear-gradient(#ccccff, #000);
+		width:74.24%;
+		height:200px;
+		margin-bottom:2%;
+		padding:1%;
+		clear:both;
+}
+#otherform{
+	display:none;
+}
+		.others h4{
+			font-size:1.5em;
+			position:relative;
+			left:31%;
+			top:-87.5%;
+		}
+	.otherSinger{
+		display:none;
+	}
+	#poster{
+		display:none;
+	}
+/*==============================================================================================*/
+
+/*====================================Photo Gallery Section=====================================*/	
+	#gallery{
+		width:85%;
+		margin:6% auto;
+	}
+	.pic{
+		border:3px outset #000;
+		box-shadow: 15px 15px 7px #888;
+	}
+	#picture{
+		position:relative;
+		background-image:url('img/instagram1.png');
+		width:92px;
+		height:92px;
+		background-repeat:no-repeat;
+	}
+	#inst{
+		background:white;
+		display:block;
+		height:92px;
+		opacity:.0;
+	}
+
+/*========================================END OF CONTENT SECTION================================*/
+
+/*====================================FOOTER SECTION===========================================*/		
+	footer{
+		height:min-height:40%;
+		clear:both;
+		color:white;
+		margin:0 auto;
+	}
+	#subfooter{
+		background-color:#000;
+		min-height:32%;
+		opacity:0.9;
+		overflow:hidden;
+		padding:1% 2% 0 1%;
+		text-align:center;
+	}
+	#subfooter h4{
+		color:#580202;
+		background-color:#ccc;
+		position:relative;
+		right:-80px;
+		text-align:center;
+		width:120px;
+		padding:4px;
+		border-radius:6px;	
+	}
+	
+		#paper{
+			background-image:url(img/adobe.fw.png);
+			background-repeat:no-repeat;
+			padding:0 0 0 20px;
+			line-height:32px;
+			color:#ccc;
+			font-size:1em;
+		}
+
+/*------------Column One------------*/	
+	.col1{
+		margin-top:1%;
+		width:230px;
+		float:left;
+	}
+	.col1 a{
+		color:#FF0000;
+		text-decoration:none;
+	}
+	.col1 a:hover{
+		color:white;
+		text-decoration:underline;
+	}
+/*------------Column two------------*/		
+	.col2{
+		width:230px;
+		float:left;
+	}	
+	.col2 a{
+		text-decoration:none;
+		color:#CCC;
+		line-height:2em;
+	}
+/*PS:*/
+/*we could use one hover and one class only for social network.
+but if notice each one of the social network change color
+repective with thir icon inside color, that why in this case
+we use id for each separete social notwork. */
+		#facebook{
+			background-image:url('img/Facebook.png');
+			background-repeat:no-repeat;
+		}
+		#facebook a{
+			position:relative;
+			top:-5px;
+		}
+		#facebook a:hover{
+			color:#5071AB;
+			text-decoration:underline;
+		}
+		
+		#twitter{
+			background-image:url('img/twitter.png');
+			background-repeat:no-repeat;
+		}
+		#twitter a{
+			position:relative;
+			top:-5px;
+		}
+		#twitter a:hover{
+			color:#ADEBED;
+			text-decoration:underline;	
+		}
+	
+		#linkedin{
+			background-image:url('img/linkedin.png');
+			background-repeat:no-repeat;
+		}
+		#linkedin a{
+			position:relative;
+			top:-5px;
+		}
+		#linkedin a:hover{
+			color:#56A6C7;
+			text-decoration:underline;
+		}
+
+		#instagram{
+			background-image:url('img/instagram.png');
+			background-repeat:no-repeat;
+		}
+		#instagram a{
+			position:relative;
+			top:-5px;
+		}
+		#instagram a:hover{
+			color:#181407;
+			text-decoration:underline;
+		}	
+/*------------Column three------------*/		
+	.col3{
+		width:260px;
+		float:left;
+	}
+	.col3 li a{
+		color:#CCC;
+		text-decoration:none;
+		line-height:1.5;
+	}
+	.col3 a:hover{
+		background-color:#ccc;
+		display:block;
+		width:260px;
+		color:#F4FA58;
+	}
+	
+/*------------Column four------------*/		
+	.col4{
+		width:230px;
+		float:left;
+		line-height:1.5em;
+	}
+	.col4
+	#footer{
+		background-color:#000;
+		min-height:10%;	
+	}
+		#copy{
+			background-image:url('img/copyright1.png');
+			background-repeat:no-repeat;
+			margin:20px;
+			width:50px; 
+			height:50px;
+			float:left;
+		}
+		#copy1{
+			width:400px;
+			color:#000;
+			position:relative;
+			right:-55px;
+			top:10px;
+		}
+		#credits{
+			color:#eee;
+			float:right;
+			margin:20px 0 0 0;
+		}
+		#credits p{
+			position:relative;
+			left:-85px;
+			color:#000;
+		}
+		#credits a{
+			text-decoration:none;
+			color:red;
+			font-style:italic;
+			font-size:0.9em;
+		}
+		#credits a:hover{
+			color:yellow;
+			border-bottom:1px dashed #4e5255;
+		}		
+/*================================================================================================*/	
+
+
+/*===============================Mobile divice start here=========================================*/
+/*================================================================================================*/
+@media screen and (min-width: 1280px){
+	body{
+		max-width:1280px;
+		margin:0 auto;
+	}
+}
+
+/*========================IPAD Landscaping General Devices==========================================*/
+/*==================================================================================================*/
+@media screen and (max-width:1010px){
+	body{
+		max-width:1010px;
+		margin:0 auto;
+	}
+	.menu li{
+		width:97px;
+	}
+	.menu a{
+		font-size:9pt;
+		width:97px;
+	}
+	.menu li:hover > a{
+		border-radius:2px;
+	}
+	aside{
+		width:20%;
+	}
+	#submit{
+		left:-30px;
+		width:20%;
+	}	
+	.others h4{
+		width:300px;
+		font-size:1.6em;
+		position:relative;
+		left:42%;
+		top:-69.5%;
+	}
+	.col1, .col2, .col3, .col4{
+		width:200px;
+		font-size:.8em;
+	}
+	.col1 h4, .col2 h4{
+		left:26px;
+	}
+	.col3 h4,.col4 h4{
+		left:45px;
+	}
+	.col3 a:hover{
+		width:200px;
+	}
+	#subfooter h4{
+		font-size:.9em;
+	}
+	
+}
+
+@media screen and (max-width:850px){
+	body{
+		max-width:850px;
+		margin:0 auto;
+	}
+	.menu li{
+		width:90px;
+	}
+	.menu a{
+		font-size:9pt;
+		width:90px;
+	}
+	.menu li:hover > a{
+		border-radius:2px;
+	}
+	.info iframe { 
+		width: 90%; 
+	}
+	aside{
+		float:none;
+		width:90%;
+	}
+	#wallpaper{
+		width:90%;
+	}
+	#events{
+		width:90%;
+	}
+	#submit{
+		left:-30px;
+		width:30%;
+	}
+	.col1, .col2, .col3, .col4{
+		width:150px;
+		font-size:.7em;
+	}
+	.col1 h4, .col2 h4{
+		left:26px;
+	}
+	.col3 h4,.col4 h4{
+		left:45px;
+	}
+	.col3 a:hover{
+		width:200px;
+	}
+	#subfooter h4{
+		font-size:.9em;
+	}	
+}
+@media screen and (max-width:800px){
+	body{
+		max-width:800px;
+		margin:0 auto;
+	}
+	.menu li{
+		width:82px;
+	}
+	.menu a{
+		font-size:8.5pt;
+		width:82px;
+	}
+	.menu li:hover > a{
+		border-radius:2px;
+	}
+	#wallpaper{
+		width:90%;
+	}
+	#events{
+		width:90%;
+	}
+	#submit{
+		left:-30px;
+		width:35%;
+	}	
+	.col1, .col2, .col3, .col4{
+		width:150px;
+		font-size:.7em;
+	}
+	.col1 h4, .col2 h4{
+		left:26px;
+	}
+	.col3 h4,.col4 h4{
+		left:45px;
+	}
+	.col3 a:hover{
+		width:200px;
+	}
+	#subfooter h4{
+		font-size:.9em;
+	}	
+}
+
+/*========================IPAD Portrait General Devices==========================================*/
+/*==================================================================================================*/
+@media screen and (max-width:750px){
+	body{
+		max-width:750px;
+		margin:0 auto;
+	}
+	.menu li{
+		width:80px;
+	}
+	.menu a{
+		font-size:8pt;
+		width:80px;
+		line-height:30px;
+	}
+	.menu li:hover > a{
+		border-radius:2px;
+	}
+	aside{
+		float:none;
+		width:90%;
+	}
+
+	.info iframe { 
+		width: 90%; 
+	}
+	.others{
+		height:400px;
+
+	}
+	.others img{
+		position:relative;
+		left:20%;
+		width:60%;
+	}
+	.others h4{
+		font-size:1.6em;
+		position:relative;
+		left:20%;
+		top:15.5%;
+	}
+		#contactForm{
+			width:250px;
+		}
+		#contactForm p{
+			font-size:.7em;
+			width:400px;
+		}
+			input#one{left: 32px;}
+			input#two{left: 5px;}
+			input#three{left:56px;}
+			input#four{left: 28px;}
+			input#five{left: 55px;}
+
+@media screen and (max-width:680px){/*-------Others sizes--------*/
+	body{
+		max-width:680px;
+		margin:0 auto;
+	}
+
+	.menu li{
+		width:70px;
+	}
+	.menu a{
+		font-size:7.5pt;
+		width:70px;
+	}
+	.menu .submenu li{
+		left:-2px;
+	}
+	.menu .submenu a{
+		width:90px;
+		font-size:8pt;
+	}
+@media screen and (max-width:680px){/*-------Others sizes--------*/
+	body{
+		max-width:600px;
+		margin:0 auto;
+	}	
+	aside{
+		margin-top: 10px auto;
+	}
+	.info{
+		width:90%;
+		margin: 0 auto;
+		position:relative;
+		left:-5px;
+	}
+		.return{
+			//display:none;
+		}	
+#copy1{
+	font-size:.9em;
+}
+#credits{
+	font-size:.8em;
+	width:100%;
+	text-align:right;
+}	
+		
+/*==================================================================================*/
+/*=====================Mobile Landscape device======================================*/
+@media screen and (max-width:468px){
+	body{
+		background-color:#273E7A;
+		background-image:none;	
+		max-width:468px;
+		margin:0 auto;
+	}
+	.menu li{
+		width:383px;
+		margin:0 auto;
+
+	}
+	.menu a{
+		font-size:1.3em;
+		line-height:1.6em;
+		width:383px;
+		margin:0 auto;
+		float:none;
+	}
+	.menu li:hover .submenu{
+		display:none;
+	}
+
+	.wrapper{
+		width:85%;
+		margin:8% 0 0 8%;
+		float:left;
+	}
+	.info{
+		width:90%;
+		height:90%
+	}
+	.info iframe { 
+		width: 90%; 
+	}
+	aside{
+		display:none;
+	}
+	#wallpaper{
+		width:100%;
+	}
+	.info{
+		width:100%;
+		margin: 0 auto;
+		position:relative;
+		left:-15px;
+	}
+		.return{
+			display:none;
+		}	
+	.otherEvents{
+		display:none;
+	}
+	#events{
+		width:100%;
+	}
+	#submit{
+		display:none;
+	}
+	#poster{
+		display:block;
+		width:100%;
+	}
+	.others{
+		width:98%;
+	}
+	#contactForm{
+		width:250px;
+	}
+	#contactForm p{
+		font-size:.7em;
+		width:200px;
+		text-align:center;
+		position:relative;
+		left:30px;
+	}
+		input#one{left: 2px;}
+		input#two{left: 3px;}
+		input#three{left:2px;}
+		input#four{left: 2px;}
+		input#five{left: 5px;}	
+	
+		.col2 h4{
+			left:65px;
+		}
+		.col3{
+			text-align:left;
+		}
+		.col3 h4{
+			left:60px;
+		}	
+		.col4 h4{
+			left:50px;
+		}
+	#credits p{
+		left:10px;
+	}
+/*=====================Mobile portrait device======================================= */
+@media screen and (max-width:310px){
+	body{
+		background-color:#273E7A;
+		background-image:none;
+		max-width:310px;
+		margin:0 auto;
+	}
+	#logo{
+		width:160%;
+		margin-right:20px;
+	}
+	.menu li{
+		width:285px;
+		margin:0 auto;
+
+	}
+	.menu a{
+		font-size:1em;
+		width:80px;
+		line-height:2.6em;
+		width:285px;
+		margin:0 auto;
+		float:none;
+	}
+	.menu li:hover .submenu{
+		display:none;
+	}
+	.wrapper{
+		width:86%;
+		margin-top:10% auto;
+		float:left;
+	}
+	aside{
+		display:none;
+	}
+	.others{
+		display:none;
+	}
+	#wallpaper{
+		display:none;
+	}
+	.info{
+		width:100%;
+		margin: 0 auto;
+		position:relative;
+		left:-15px;
+	}
+		.return{
+			display:none;
+		}
+	#events{
+		display:none;
+	}
+		#group img{
+			display:none;
+		}
+	#otherSinger{
+		display:block;
+	}
+	#submit{
+		left:-25%;
+		width:50%;
+	}
+	#submit1{
+		left:20%;
+		width:30%;
+	}	
+	#showMoreEvents{
+		display:none;
+	}
+	#contactForm{
+		width:250px;
+	}
+	#contactForm p{
+		font-size:.7em;
+		width:200px;
+		text-align:center;
+		position:relative;
+		left:10px;
+	}
+	#contactForm p input#six{
+		width:100px;
+	}
+		input#one{left: 2px;}
+		input#two{left: 3px;}
+		input#three{left:2px;}
+		input#four{left: 2px;}
+		input#five{left: 5px;}
+
+	.col2 h4{
+		left:65px;
+	}
+	.col3{
+		text-align:left;
+	}
+	.col3 h4{
+		left:60px;
+	}	
+	.col4{
+		text-align:left;
+	}	
+	.col4 h4{
+		left:45px;
+	}
+	footer{
+		width:100%;
+		margin: 0 auto;
+	}
+	#subfooter{
+		width:100%;
+	}
+	#credits p{
+		left:10px;
+	}
+	
